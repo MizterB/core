@@ -29,5 +29,8 @@
       "!include_dir_merge_list scalar",
       "!include_dir_merge_named scalar"
     ]
-  }
+  },
+  "mounts": [
+    "source=/Users/barretcc/Documents/Development/GitHub/homeassistant-infinitude/custom_components/infinitude,target=/workspaces/homeassistant-core/config/custom_components/infinitude,type=bind"
+  ]
 }
