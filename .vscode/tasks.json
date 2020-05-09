@@ -15,8 +15,14 @@
       },
       "problemMatcher": []
     },
+    // This task should be used when developing in custom_requirements.
+    // Any time the container is rebuilt, first run the regular Preview taks,
+    // which installs all HA dependencies.  Then, swap in the custom_requirements
+    // by running the following in the terminal:
+    // `pip uninstall <req_name>`
+    // `pip install -e ./config/custom_requirements/<req_name>`
     {
-      "label": "Preview (--skip-pip)",
+      "label": "Preview with Custom Requirements",
       "type": "shell",
       "command": "hass --skip-pip -c ./config",
       "group": {
