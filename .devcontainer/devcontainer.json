@@ -31,6 +31,8 @@
     ]
   },
   "mounts": [
-    "source=/Users/barretcc/Documents/Development/GitHub/homeassistant-infinitude/custom_components/infinitude,target=/workspaces/homeassistant-core/config/custom_components/infinitude,type=bind"
+    "source=/Users/barretcc/Development/GitHub/homeassistant-infinitude/custom_components/infinitude,target=/workspaces/homeassistant-core/config/custom_components/infinitude,type=bind",
+    "source=/Users/barretcc/Development/GitHub/homeassistant-bond-home/custom_components/bond,target=/workspaces/homeassistant-core/config/custom_components/bond,type=bind",
+    "source=/Users/barretcc/Development/GitHub/bond-home,target=/workspaces/homeassistant-core/config/custom_requirements/bond-home,type=bind"
   ]
 }
