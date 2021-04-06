@@ -156,6 +156,9 @@ aiodns==2.0.0
 # homeassistant.components.eafm
 aioeafm==0.1.2
 
+# homeassistant.components.emonitor
+aioemonitor==1.0.5
+
 # homeassistant.components.esphome
 aioesphomeapi==2.6.6
 
@@ -374,7 +377,7 @@ blockchain==1.4.4
 # bme680==1.0.5
 
 # homeassistant.components.bond
-bond-api==0.1.11
+bond-api==0.1.12
 
 # homeassistant.components.amazon_polly
 # homeassistant.components.route53
@@ -1224,6 +1227,9 @@ pyControl4==0.0.6
 # homeassistant.components.tplink
 pyHS100==0.3.5.2
 
+# homeassistant.components.met_eireann
+pyMetEireann==0.2
+
 # homeassistant.components.met
 # homeassistant.components.norway_air
 pyMetno==0.8.1
@@ -1301,13 +1307,13 @@ pycfdns==1.2.1
 pychannels==1.0.0
 
 # homeassistant.components.cast
-pychromecast==9.1.1
+pychromecast==9.1.2
 
 # homeassistant.components.pocketcasts
 pycketcasts==1.0.0
 
 # homeassistant.components.climacell
-pyclimacell==0.14.0
+pyclimacell==0.18.0
 
 # homeassistant.components.cmus
 pycmus==0.1.1
@@ -2080,9 +2086,6 @@ smhi-pkg==1.0.13
 # homeassistant.components.snapcast
 snapcast==2.1.2
 
-# homeassistant.components.socialblade
-socialbladeclient==0.5
-
 # homeassistant.components.solaredge_local
 solaredge-local==0.2.0
 
@@ -2290,7 +2293,7 @@ vtjp==0.1.14
 vultr==0.1.2
 
 # homeassistant.components.wake_on_lan
-wakeonlan==1.1.6
+wakeonlan==2.0.0
 
 # homeassistant.components.waqi
 waqiasync==1.0.0
@@ -2399,4 +2402,4 @@ zigpy==0.33.0
 zm-py==0.5.2
 
 # homeassistant.components.zwave_js
-zwave-js-server-python==0.23.0
+zwave-js-server-python==0.23.1
